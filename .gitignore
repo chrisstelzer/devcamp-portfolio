@@ -24,6 +24,3 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-
-#testing git ignore file is cached
-asdffdas
