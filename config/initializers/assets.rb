@@ -16,4 +16,5 @@ Rails.application.config.assets.precompile += %w( blogs.scss )
 
 Rails.application.config.assets.precompile += %w( portfolios.scss )
 
+#Had to add this in order to have 'videos' folder avliable in asset pipeline
 Rails.application.config.assets.paths << "#{Rails.root}/app/assets/videos"
