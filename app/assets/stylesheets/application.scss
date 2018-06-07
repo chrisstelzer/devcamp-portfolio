@@ -221,4 +221,19 @@ body {
   padding: 30px
 }
 
+.app-card-container {
+  color: black;
+  text-align: left;
+}
 
+.app-card-container > .card {
+  padding: 30px;
+}
+
+.profile-image {
+  border: 2px solid grey;
+}
+
+.app-card-container a {
+  color: blue;
+}
