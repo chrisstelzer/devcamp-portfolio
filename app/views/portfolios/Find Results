@@ -1,0 +1,62 @@
+Searching 5842 files for "markdown"
+
+/Users/chrisstelzer/RailsCourse/DevcampPortfolio/app/helpers/blogs_helper.rb:
+   10    end
+   11  
+   12:   def markdown(text)
+   13      coderayified = CodeRayify.new(filter_html: true, hard_wrap: true)
+   14  
+   ..
+   20      }
+   21  
+   22:     markdown_to_html = Redcarpet::Markdown.new(coderayified, options)
+   23:     markdown_to_html.render(text).html_safe
+   24    end
+   25  
+
+/Users/chrisstelzer/RailsCourse/DevcampPortfolio/app/helpers/portfolios_helper.rb:
+   21    end
+   22  
+   23:   def markdown(text)
+   24      coderayified = CodeRayify.new(filter_html: true, hard_wrap: true)
+   25  
+   ..
+   31      }
+   32  
+   33:     markdown_to_html = Redcarpet::Markdown.new(coderayified, options)
+   34:     markdown_to_html.render(text).html_safe
+   35    end
+   36  
+
+/Users/chrisstelzer/RailsCourse/DevcampPortfolio/app/views/blogs/show.html.erb:
+   23  
+   24    <p>
+   25:     <%= markdown @blog.body %>
+   26    </p>
+   27  
+
+/Users/chrisstelzer/RailsCourse/DevcampPortfolio/log/development.log:
+    <binary>
+
+/Users/chrisstelzer/RailsCourse/DevcampPortfolio/tmp/cache/bootsnap-load-path-cache:
+    <binary>
+
+/Users/chrisstelzer/RailsCourse/DevcampPortfolio/tmp/cache/bootsnap-compile-cache/09/e3f46a28a5d22c:
+    <binary>
+
+/Users/chrisstelzer/RailsCourse/DevcampPortfolio/tmp/cache/bootsnap-compile-cache/18/52248160c4c9d8:
+    <binary>
+
+/Users/chrisstelzer/RailsCourse/DevcampPortfolio/tmp/cache/bootsnap-compile-cache/49/f862def5b03bb8:
+    <binary>
+
+/Users/chrisstelzer/RailsCourse/DevcampPortfolio/tmp/cache/bootsnap-compile-cache/6e/b4b87ac380d7bb:
+    <binary>
+
+/Users/chrisstelzer/RailsCourse/DevcampPortfolio/tmp/cache/bootsnap-compile-cache/c7/f960527974a90c:
+    <binary>
+
+/Users/chrisstelzer/RailsCourse/DevcampPortfolio/tmp/cache/bootsnap-compile-cache/d8/fed6e9d7788677:
+    <binary>
+
+33 matches across 11 files
